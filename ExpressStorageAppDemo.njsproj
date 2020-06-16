@@ -37,11 +37,14 @@
     <Compile Include="routes\index.js" />
     <Compile Include="routes\user.js" />
     <Content Include="package.json" />
+    <Content Include="Pdf\reciptgenerate.pdf" />
+    <Content Include="Pdf\reciptgenerate2.pdf" />
     <Content Include="Pdf\reciptgenerate3.pdf" />
     <Content Include="public\stylesheets\style.styl" />
     <Content Include="README.md" />
     <Content Include="routes\bloburl.js" />
     <Content Include="views\blobs.jade" />
+    <Content Include="views\bloburl.jade" />
     <Content Include="views\storage.jade" />
     <Content Include="views\index.jade" />
     <Content Include="views\layout.jade" />

@@ -9,7 +9,7 @@ var azureStorage = require('azure-storage');
 
 var accessKey = 'zVqqqQ2EIeZJZf8XRSB8gYsDBC+NGHaiXJtH9bY/Ig8EfZDL7rATFntlDOZTWE3x093UltvxTKSxbbQS0CdLDQ==';
 var storageAccount = 'localafdemo8443';
-var containerName = 'pdf-bill';
+var containerName = 'recognizer-bill';
 
 
 var blobService = azureStorage.createBlobService(storageAccount, accessKey);

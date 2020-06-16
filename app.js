@@ -216,7 +216,7 @@ app.post('/upload', function (req, res) {
     var accessKey = 'zVqqqQ2EIeZJZf8XRSB8gYsDBC+NGHaiXJtH9bY/Ig8EfZDL7rATFntlDOZTWE3x093UltvxTKSxbbQS0CdLDQ==';
     var storageAccount = 'localafdemo8443';
 
-    var container = 'nodejs';    
+    var container = 'pdf-bill';    
     var blobService = azure.createBlobService(storageAccount, accessKey);
     var form = new multiparty.Form();
     

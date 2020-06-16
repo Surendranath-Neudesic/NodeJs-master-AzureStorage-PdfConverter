@@ -5,8 +5,8 @@ const path = require("path");
 exports.bloburl = function (request, response)
 {
     //Change File path before executing this code.
-    let filePath = "D:\\Azure-Storage-NodeJS-master\\Pdf\\";
-    let fileInput = filePath + "reciptgenerate3.pdf";
+    let filePath = "D:\\Git_code\\Pdf\\";
+    let fileInput = filePath + "reciptgenerate2.pdf";
 
     let opts = {
         format: "jpeg",
@@ -18,6 +18,7 @@ exports.bloburl = function (request, response)
     pdf
         .convert(fileInput, opts)
         .then((res) => {
+            response.render('bloburl', { title: 'BlobUrl' });
             console.log("Successfully converted");
         })
         .catch((error) => {
